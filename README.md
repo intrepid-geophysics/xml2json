@@ -12,6 +12,10 @@ xml2json is a header-only C++ library. Just copy the `./include` folder to syste
 make
 ./xml2json input.xml
 ```
+Visual Studio:
+```
+cl -nologo -O2 -EHsc -I ./include xml2json.cpp
+```
 #### C++ API
 ```C++
 std::string xml2json(const char *xml_str)

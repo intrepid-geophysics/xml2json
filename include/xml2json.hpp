@@ -24,8 +24,8 @@
 #include "rapidjson/error/en.h"
 
 /* [Start] This part is configurable */
-static const char xml2json_text_additional_name[] = "#text";
-static const char xml2json_attribute_name_prefix[] = "@";
+static const char xml2json_text_additional_name[] = "_content";
+static const char xml2json_attribute_name_prefix[] = "";
 /* Example:
    <node_name attribute_name="attribute_value">value</node_name> ---> "node_name":{"#text":"value","@attribute_name":"attribute_value"}
 */
